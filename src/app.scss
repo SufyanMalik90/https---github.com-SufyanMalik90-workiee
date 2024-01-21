@@ -1,0 +1,32 @@
+
+
+$body:#f8f9fc;
+// $body:white;
+* {
+  .link {
+    text-decoration: none;
+    // color: inherit;
+    color: black;
+  }
+}
+body{
+  background-color: $body;
+}
+
+::-webkit-scrollbar{
+  width: 1rem;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track{
+  background-color:white;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #222831;
+  border-radius: 12px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(11, 124, 45);
+  box-shadow: #cb22d7 0px 5px 8px -4px;
+}

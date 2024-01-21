@@ -1,0 +1,41 @@
+.catCard {
+  filter: grayscale(20);
+  width: 252px;
+  height: 344px;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  transition: all linear 0.3s;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .desc {
+    font-weight: 300;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .title {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-size:24px;
+    font-weight: 500;
+  }
+}
+.catCard:hover{
+  
+  color: white;
+  transform: scale(1.03);
+  filter: none;
+  text-shadow:#cb22d7 0px 8px 24px,#cb22d7 0px 16px 56px,#cb22d7 0px 24px 80px;  
+  
+}

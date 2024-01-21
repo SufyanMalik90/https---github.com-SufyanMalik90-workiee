@@ -1,0 +1,62 @@
+.orders {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #393e46;
+  .container {
+    width: 1400px;
+    padding: 50px 0px;
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        background-color: #1dbf73;
+        color: white;
+        font-weight: 500;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+    }
+
+    table {
+      width: 100%;
+      tr {
+        height: 50px;
+        th {
+          text-align: left;
+        }
+        td {
+          background-color:transparent;
+          border-bottom: 1px solid white;
+          sup{
+            font-size: 12px;
+          }
+          span{
+          
+            color:  #1dbf73;
+            cursor: pointer;
+            font-size:20px;
+          }
+
+          .image {
+            width: 50px;
+            height: 25px;
+            object-fit: cover;
+          }
+
+          .message {
+            width: 25px;
+            cursor: pointer;
+          }
+        }
+        &:nth-child(even) {
+          background-color: #222831;
+        }
+      }
+    }
+  }
+}
